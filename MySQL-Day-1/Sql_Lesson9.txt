@@ -1,7 +1,15 @@
-SELECT title, (Domestic_sales + International_sales) / 1000000 as Sales
-FROM movies inner join boxoffice
-on id = movie_id;
+1. List all movies and their combined sales in millions of dollars
 
-SELECT title, (rating) * 10 as Rating_Percentage
-FROM movies inner join boxoffice
-on id = movie_id;
+        SELECT title, (Domestic_sales + International_sales) / 1000000 as Sales
+        FROM movies inner join boxoffice
+        on id = movie_id;
+
+2. List all movies and their ratings in percent
+
+        SELECT title, (rating) * 10 as Rating_Percentage
+        FROM movies inner join boxoffice
+        on id = movie_id;
+
+3. List all movies that were released on even number years
+        
+        SELECT title FROM movies where (year % 2 = 0);

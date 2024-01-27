@@ -1,0 +1,15 @@
+1. The director for A Bug's Life is incorrect, it was actually directed by John Lasseter 
+
+        Update Movies set director ="John Lasseter" where id = 2;
+
+2. The year that Toy Story 2 was released is incorrect, it was actually released in 1999
+
+        Update Movies set year = 1999 where title = "Toy Story 2";
+
+3. Both the title and director for Toy Story 8 is incorrect! The title should be "Toy Story 3" 
+   and it was directed by Lee Unkrich
+
+        Update Movies set 
+        title = "Toy Story 3",
+        director = "Lee Unkrich"
+        where title = "Toy Story 8";
