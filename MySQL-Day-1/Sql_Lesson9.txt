@@ -1,0 +1,7 @@
+SELECT title, (Domestic_sales + International_sales) / 1000000 as Sales
+FROM movies inner join boxoffice
+on id = movie_id;
+
+SELECT title, (rating) * 10 as Rating_Percentage
+FROM movies inner join boxoffice
+on id = movie_id;
