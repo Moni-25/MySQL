@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "65bd2854d1bf3ae27425415d"
+  },
+  "task_name": "Array",
+  "assigned_date": "02-Oct-2023",
+  "month": "October",
+  "topicId": {
+    "$oid": "65bd25621c7340f7273bdff7"
+  },
+  "submitted_date": {
+    "$date": "2023-10-16T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65bd2854d1bf3ae27425415e"
+  },
+  "task_name": "Function",
+  "assigned_date": "04-Oct-2023",
+  "month": "October",
+  "topicId": {
+    "$oid": "65bd2a226ff08d48facc2054"
+  }
+},
+{
+  "_id": {
+    "$oid": "65bd2aa76ff08d48facc205c"
+  },
+  "task_name": "Web Browser",
+  "assigned_date": "03-Nov-2023"
+},
+{
+  "_id": {
+    "$oid": "65bd2acf6ff08d48facc205e"
+  },
+  "task_name": "Js Datatypes",
+  "assigned_date": "22-Oct-2023"
+}]

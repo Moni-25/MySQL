@@ -1,0 +1,44 @@
+[{
+  "_id": {
+    "$oid": "65bdf913b4675d32efbfda48"
+  },
+  "user_name": "Meli",
+  "date": {
+    "$date": "2023-10-20T00:00:00.000Z"
+  },
+  "attendance": "present",
+  "task_submission": "failed"
+},
+{
+  "_id": {
+    "$oid": "65bdf913b4675d32efbfda49"
+  },
+  "user_name": "Doss",
+  "date": {
+    "$date": "2023-10-28T00:00:00.000Z"
+  },
+  "attendance": "absent",
+  "task_submission": "failed"
+},
+{
+  "_id": {
+    "$oid": "65bdf913b4675d32efbfda4a"
+  },
+  "user_name": "Monica",
+  "date": {
+    "$date": "2023-10-29T00:00:00.000Z"
+  },
+  "attendance": "present",
+  "task_submission": "pass"
+},
+{
+  "_id": {
+    "$oid": "65bdf913b4675d32efbfda4b"
+  },
+  "user_name": "Emelda",
+  "date": {
+    "$date": "2023-11-11T00:00:00.000Z"
+  },
+  "attendance": "absent",
+  "task_submission": "pass"
+}]

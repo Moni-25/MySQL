@@ -1,0 +1,59 @@
+1. Find all the topics and tasks which are thought in the month of October
+
+        db.tasks.aggregate([{
+            $lookup: {
+                from: "topics",
+                localField: "topicId",
+                foreignField: "_id",
+                as: "Topic"
+            }
+        }])
+
+2. Find all the company drives which appeared between 15 oct-2023and 31-oct-2023
+
+        db.company_drives.find({
+        arrived_date:{
+            $gt: new Date("2023-10-15"),
+            $lt: new Date("2023-10-31")
+        }
+    })
+    
+3. Find all the company drives and students who are appeared for the placement.
+
+        db.company_drives.find().forEach(function (data)
+        {
+            print("Company Drives : " +data.company_name);
+            print("Appeared Students : " +data.appeared_student);
+        })
+
+4. Find the number of problems solved by the user in codekata
+
+        db.codeketa.find().forEach(function (data)
+        {
+            print("Username : " +data.user_name);
+            print("Number of Problem Solved : " +data.problems_solved);
+        })
+
+5. Find all the mentors with who has the mentee's count more than 15
+
+        db.mentors.find({mentees_count : {$gt : 15}})        
+
+6. Find the number of users who are absent and task is not submitted  between 15 oct-2020 and 31-oct-2020
+
+        db.users.find({$and : [
+            { 
+                date : {
+                        $gt : new Date("2023-10-15"), 
+                        $lt : new Date("2023-10-31")}
+            },
+            {
+                attendance : "absent"
+            }
+            ]})
+            .forEach(function (data)
+                {
+                    print("Username : " +data.user_name);
+                    print("Attendance :" +data.attendance);
+                    print("Task Status: " +data.task_submission)
+                }
+            )    

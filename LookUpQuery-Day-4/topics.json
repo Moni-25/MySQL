@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "65bd25621c7340f7273bdff7"
+  },
+  "topic_name": "Javascript",
+  "schedule_date": "01-Oct-2023",
+  "schedule_month": "October"
+},
+{
+  "_id": {
+    "$oid": "65bd270ad1bf3ae27425415b"
+  },
+  "topic_name": "Html",
+  "schedule_date": "20-Nov-2023"
+},
+{
+  "_id": {
+    "$oid": "65bd29d56ff08d48facc2052"
+  },
+  "topic_name": "Introduction to Web Browser",
+  "schedule_date": "05-Nov-2023"
+},
+{
+  "_id": {
+    "$oid": "65bd2a226ff08d48facc2054"
+  },
+  "topic_name": "Datatypes",
+  "schedule_date": "12-Oct-2023",
+  "schedule_month": "October"
+},
+{
+  "_id": {
+    "$oid": "65bd2a3f6ff08d48facc2056"
+  },
+  "topic_name": "Basic Tags In HTML",
+  "schedule_date": "18-Nov-2023"
+}]

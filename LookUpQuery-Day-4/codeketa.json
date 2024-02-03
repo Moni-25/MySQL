@@ -1,0 +1,35 @@
+[{
+  "_id": {
+    "$oid": "65bde1afb4ecf2b3d39b884b"
+  },
+  "user_name": "Monica",
+  "problems_solved": 98
+},
+{
+  "_id": {
+    "$oid": "65bde1afb4ecf2b3d39b884c"
+  },
+  "user_name": "Merli",
+  "problems_solved": 48
+},
+{
+  "_id": {
+    "$oid": "65bde1afb4ecf2b3d39b884d"
+  },
+  "user_name": "Doss",
+  "problems_solved": 88
+},
+{
+  "_id": {
+    "$oid": "65bde1afb4ecf2b3d39b884e"
+  },
+  "user_name": "Emelda",
+  "problems_solved": 78
+},
+{
+  "_id": {
+    "$oid": "65bde1afb4ecf2b3d39b884f"
+  },
+  "user_name": "Doni",
+  "problems_solved": 100
+}]
